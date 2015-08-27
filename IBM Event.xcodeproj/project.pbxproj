@@ -18,11 +18,9 @@
 		2A34573A1B3E05B30037B434 /* linkedin1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A3457371B3E05B30037B434 /* linkedin1.jpg */; };
 		2A34573B1B3E05B30037B434 /* linkedin2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A3457381B3E05B30037B434 /* linkedin2.jpg */; };
 		2A34573C1B3E05B30037B434 /* linkedin3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A3457391B3E05B30037B434 /* linkedin3.jpg */; };
-		2A34573E1B3E071D0037B434 /* icons copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A34573D1B3E071D0037B434 /* icons copy.png */; };
 		2A3457421B3E084E0037B434 /* tw1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A34573F1B3E084E0037B434 /* tw1.jpg */; };
 		2A3457431B3E084E0037B434 /* tw2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A3457401B3E084E0037B434 /* tw2.jpg */; };
 		2A3457441B3E084E0037B434 /* tw3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A3457411B3E084E0037B434 /* tw3.jpg */; };
-		2A3457461B3E0C3B0037B434 /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A3457451B3E0C3B0037B434 /* FullSizeRender.jpg */; };
 		2A7839CF1B4AC69B00CEE17D /* Cuadrito azul.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A7839CE1B4AC69B00CEE17D /* Cuadrito azul.png */; };
 		2ACA5A951B352FC40050CC0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA5A941B352FC40050CC0E /* main.m */; };
 		2ACA5A981B352FC40050CC0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACA5A971B352FC40050CC0E /* AppDelegate.m */; };
@@ -35,18 +33,16 @@
 		2ACA5ABF1B3531130050CC0E /* qrcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA5ABD1B3531130050CC0E /* qrcode.png */; };
 		2ACA5AC11B3531D60050CC0E /* ibmLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA5AC01B3531D60050CC0E /* ibmLogo.png */; };
 		2ACA5ACA1B3539DB0050CC0E /* backIconWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA5AC21B3539DB0050CC0E /* backIconWhite.png */; };
-		2ACA5ACB1B3539DB0050CC0E /* configIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA5AC31B3539DB0050CC0E /* configIcon.png */; };
-		2ACA5ACE1B3539DB0050CC0E /* Previous-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA5AC61B3539DB0050CC0E /* Previous-50.png */; };
-		2ACA5AD51B35CED90050CC0E /* presentation1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA5AD21B35CED90050CC0E /* presentation1.jpg */; };
-		2ACA5AD61B35CED90050CC0E /* presentation2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA5AD31B35CED90050CC0E /* presentation2.jpg */; };
-		2ACA5AD71B35CED90050CC0E /* presentation3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ACA5AD41B35CED90050CC0E /* presentation3.jpg */; };
-		2AD0854D1B38F62800377445 /* homeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD0854C1B38F62800377445 /* homeIcon.png */; };
-		2AD0854F1B38F88D00377445 /* calendarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD0854E1B38F88D00377445 /* calendarIcon.png */; };
-		2AD085521B38F90600377445 /* networkingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD085511B38F90600377445 /* networkingIcon.png */; };
-		2AD085541B38F91200377445 /* socialIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD085531B38F91200377445 /* socialIcon.png */; };
-		2AD085581B38F91E00377445 /* twitterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD085571B38F91E00377445 /* twitterIcon.png */; };
-		2AD0855A1B38F9ED00377445 /* infoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD085591B38F9ED00377445 /* infoIcon.png */; };
-		2AD0855C1B38FB2400377445 /* configLineIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD0855B1B38FB2400377445 /* configLineIcon.png */; };
+		2F00C8921B8E94770080FCBE /* config-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C8881B8E94770080FCBE /* config-filled.png */; };
+		2F00C8931B8E94770080FCBE /* config.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C8891B8E94770080FCBE /* config.png */; };
+		2F00C8941B8E94770080FCBE /* home-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C88A1B8E94770080FCBE /* home-filled.png */; };
+		2F00C8951B8E94770080FCBE /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C88B1B8E94770080FCBE /* home.png */; };
+		2F00C8961B8E94770080FCBE /* info-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C88C1B8E94770080FCBE /* info-filled.png */; };
+		2F00C8971B8E94770080FCBE /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C88D1B8E94770080FCBE /* info.png */; };
+		2F00C8981B8E94770080FCBE /* network-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C88E1B8E94770080FCBE /* network-filled.png */; };
+		2F00C8991B8E94770080FCBE /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C88F1B8E94770080FCBE /* network.png */; };
+		2F00C89A1B8E94770080FCBE /* twitter-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C8901B8E94770080FCBE /* twitter-filled.png */; };
+		2F00C89B1B8E94770080FCBE /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C8911B8E94770080FCBE /* twitter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,11 +67,9 @@
 		2A3457371B3E05B30037B434 /* linkedin1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linkedin1.jpg; sourceTree = "<group>"; };
 		2A3457381B3E05B30037B434 /* linkedin2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linkedin2.jpg; sourceTree = "<group>"; };
 		2A3457391B3E05B30037B434 /* linkedin3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = linkedin3.jpg; sourceTree = "<group>"; };
-		2A34573D1B3E071D0037B434 /* icons copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons copy.png"; sourceTree = "<group>"; };
 		2A34573F1B3E084E0037B434 /* tw1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tw1.jpg; sourceTree = "<group>"; };
 		2A3457401B3E084E0037B434 /* tw2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tw2.jpg; sourceTree = "<group>"; };
 		2A3457411B3E084E0037B434 /* tw3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tw3.jpg; sourceTree = "<group>"; };
-		2A3457451B3E0C3B0037B434 /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender.jpg; sourceTree = "<group>"; };
 		2A7839CE1B4AC69B00CEE17D /* Cuadrito azul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cuadrito azul.png"; sourceTree = "<group>"; };
 		2ACA5A8F1B352FC40050CC0E /* IBM Event.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBM Event.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACA5A931B352FC40050CC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,19 +88,17 @@
 		2ACA5ABD1B3531130050CC0E /* qrcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode.png; sourceTree = "<group>"; };
 		2ACA5AC01B3531D60050CC0E /* ibmLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibmLogo.png; sourceTree = "<group>"; };
 		2ACA5AC21B3539DB0050CC0E /* backIconWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backIconWhite.png; sourceTree = "<group>"; };
-		2ACA5AC31B3539DB0050CC0E /* configIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configIcon.png; sourceTree = "<group>"; };
-		2ACA5AC61B3539DB0050CC0E /* Previous-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Previous-50.png"; sourceTree = "<group>"; };
-		2ACA5AD21B35CED90050CC0E /* presentation1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = presentation1.jpg; sourceTree = "<group>"; };
-		2ACA5AD31B35CED90050CC0E /* presentation2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = presentation2.jpg; sourceTree = "<group>"; };
-		2ACA5AD41B35CED90050CC0E /* presentation3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = presentation3.jpg; sourceTree = "<group>"; };
 		2ACA5AD81B35D1A60050CC0E /* IBM Event-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBM Event-Bridging-Header.h"; sourceTree = "<group>"; };
-		2AD0854C1B38F62800377445 /* homeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeIcon.png; sourceTree = "<group>"; };
-		2AD0854E1B38F88D00377445 /* calendarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendarIcon.png; sourceTree = "<group>"; };
-		2AD085511B38F90600377445 /* networkingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = networkingIcon.png; sourceTree = "<group>"; };
-		2AD085531B38F91200377445 /* socialIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialIcon.png; sourceTree = "<group>"; };
-		2AD085571B38F91E00377445 /* twitterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterIcon.png; sourceTree = "<group>"; };
-		2AD085591B38F9ED00377445 /* infoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoIcon.png; sourceTree = "<group>"; };
-		2AD0855B1B38FB2400377445 /* configLineIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configLineIcon.png; sourceTree = "<group>"; };
+		2F00C8881B8E94770080FCBE /* config-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "config-filled.png"; sourceTree = "<group>"; };
+		2F00C8891B8E94770080FCBE /* config.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = config.png; sourceTree = "<group>"; };
+		2F00C88A1B8E94770080FCBE /* home-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-filled.png"; sourceTree = "<group>"; };
+		2F00C88B1B8E94770080FCBE /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		2F00C88C1B8E94770080FCBE /* info-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-filled.png"; sourceTree = "<group>"; };
+		2F00C88D1B8E94770080FCBE /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		2F00C88E1B8E94770080FCBE /* network-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "network-filled.png"; sourceTree = "<group>"; };
+		2F00C88F1B8E94770080FCBE /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = network.png; sourceTree = "<group>"; };
+		2F00C8901B8E94770080FCBE /* twitter-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-filled.png"; sourceTree = "<group>"; };
+		2F00C8911B8E94770080FCBE /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,27 +193,23 @@
 				2A0AEEF61B45EB0600C4FE01 /* Foto Speaker3.png */,
 				2A0AEEF41B45EAFC00C4FE01 /* FondoApp.png */,
 				2A3457391B3E05B30037B434 /* linkedin3.jpg */,
-				2ACA5AC31B3539DB0050CC0E /* configIcon.png */,
 				2A7839CE1B4AC69B00CEE17D /* Cuadrito azul.png */,
-				2ACA5AD21B35CED90050CC0E /* presentation1.jpg */,
-				2A34573D1B3E071D0037B434 /* icons copy.png */,
 				2A0AEEE81B4309CE00C4FE01 /* LogoIBMevents58px.jpg */,
 				2A0AEEE91B4309CE00C4FE01 /* LogoIBMevents80px.jpg */,
+				2F00C8881B8E94770080FCBE /* config-filled.png */,
+				2F00C8891B8E94770080FCBE /* config.png */,
+				2F00C88A1B8E94770080FCBE /* home-filled.png */,
+				2F00C88B1B8E94770080FCBE /* home.png */,
+				2F00C88C1B8E94770080FCBE /* info-filled.png */,
+				2F00C88D1B8E94770080FCBE /* info.png */,
+				2F00C88E1B8E94770080FCBE /* network-filled.png */,
+				2F00C88F1B8E94770080FCBE /* network.png */,
+				2F00C8901B8E94770080FCBE /* twitter-filled.png */,
+				2F00C8911B8E94770080FCBE /* twitter.png */,
 				2A0AEEEA1B4309CE00C4FE01 /* LogoIBMevents120px.jpg */,
-				2AD0854C1B38F62800377445 /* homeIcon.png */,
-				2A3457451B3E0C3B0037B434 /* FullSizeRender.jpg */,
 				2A34573F1B3E084E0037B434 /* tw1.jpg */,
 				2A3457401B3E084E0037B434 /* tw2.jpg */,
 				2A3457411B3E084E0037B434 /* tw3.jpg */,
-				2AD085591B38F9ED00377445 /* infoIcon.png */,
-				2AD085531B38F91200377445 /* socialIcon.png */,
-				2AD0855B1B38FB2400377445 /* configLineIcon.png */,
-				2AD085511B38F90600377445 /* networkingIcon.png */,
-				2AD085571B38F91E00377445 /* twitterIcon.png */,
-				2ACA5AD31B35CED90050CC0E /* presentation2.jpg */,
-				2AD0854E1B38F88D00377445 /* calendarIcon.png */,
-				2ACA5AD41B35CED90050CC0E /* presentation3.jpg */,
-				2ACA5AC61B3539DB0050CC0E /* Previous-50.png */,
 				2ACA5AC01B3531D60050CC0E /* ibmLogo.png */,
 				2ACA5ABD1B3531130050CC0E /* qrcode.png */,
 			);
@@ -308,41 +296,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F00C8941B8E94770080FCBE /* home-filled.png in Resources */,
 				2ACA5AA11B352FC40050CC0E /* Main.storyboard in Resources */,
-				2ACA5ACE1B3539DB0050CC0E /* Previous-50.png in Resources */,
+				2F00C8971B8E94770080FCBE /* info.png in Resources */,
 				2A0AEEEC1B4309CE00C4FE01 /* LogoIBMevents80px.jpg in Resources */,
 				2ACA5AA61B352FC40050CC0E /* LaunchScreen.xib in Resources */,
 				2A0AEEF01B45E49D00C4FE01 /* Foto Speaker1.png in Resources */,
 				2A3457441B3E084E0037B434 /* tw3.jpg in Resources */,
 				2A3457431B3E084E0037B434 /* tw2.jpg in Resources */,
-				2ACA5AD61B35CED90050CC0E /* presentation2.jpg in Resources */,
 				2ACA5ABF1B3531130050CC0E /* qrcode.png in Resources */,
-				2AD0854D1B38F62800377445 /* homeIcon.png in Resources */,
-				2AD085541B38F91200377445 /* socialIcon.png in Resources */,
+				2F00C89A1B8E94770080FCBE /* twitter-filled.png in Resources */,
 				2A0AEEF51B45EAFC00C4FE01 /* FondoApp.png in Resources */,
+				2F00C8961B8E94770080FCBE /* info-filled.png in Resources */,
+				2F00C8991B8E94770080FCBE /* network.png in Resources */,
+				2F00C89B1B8E94770080FCBE /* twitter.png in Resources */,
 				2ACA5AC11B3531D60050CC0E /* ibmLogo.png in Resources */,
-				2ACA5AD51B35CED90050CC0E /* presentation1.jpg in Resources */,
+				2F00C8981B8E94770080FCBE /* network-filled.png in Resources */,
 				2A0AEEF71B45EB0600C4FE01 /* Foto Speaker3.png in Resources */,
 				2A3457421B3E084E0037B434 /* tw1.jpg in Resources */,
-				2AD085521B38F90600377445 /* networkingIcon.png in Resources */,
-				2AD0855C1B38FB2400377445 /* configLineIcon.png in Resources */,
 				2A34573B1B3E05B30037B434 /* linkedin2.jpg in Resources */,
-				2A34573E1B3E071D0037B434 /* icons copy.png in Resources */,
-				2ACA5ACB1B3539DB0050CC0E /* configIcon.png in Resources */,
 				2A0AEEEB1B4309CE00C4FE01 /* LogoIBMevents58px.jpg in Resources */,
-				2AD0855A1B38F9ED00377445 /* infoIcon.png in Resources */,
-				2AD0854F1B38F88D00377445 /* calendarIcon.png in Resources */,
 				2A0AEEED1B4309CE00C4FE01 /* LogoIBMevents120px.jpg in Resources */,
 				2A7839CF1B4AC69B00CEE17D /* Cuadrito azul.png in Resources */,
+				2F00C8951B8E94770080FCBE /* home.png in Resources */,
 				2A34573A1B3E05B30037B434 /* linkedin1.jpg in Resources */,
+				2F00C8931B8E94770080FCBE /* config.png in Resources */,
 				2ACA5AA31B352FC40050CC0E /* Images.xcassets in Resources */,
 				2A0AEEF11B45E49D00C4FE01 /* Foto Speaker2.png in Resources */,
 				2ACA5ACA1B3539DB0050CC0E /* backIconWhite.png in Resources */,
-				2ACA5AD71B35CED90050CC0E /* presentation3.jpg in Resources */,
-				2AD085581B38F91E00377445 /* twitterIcon.png in Resources */,
 				2A0AEEF31B45E4AB00C4FE01 /* AnaPaulaNacif_ct.kaywa.me_TE5eh.png in Resources */,
 				2A34573C1B3E05B30037B434 /* linkedin3.jpg in Resources */,
-				2A3457461B3E0C3B0037B434 /* FullSizeRender.jpg in Resources */,
+				2F00C8921B8E94770080FCBE /* config-filled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
