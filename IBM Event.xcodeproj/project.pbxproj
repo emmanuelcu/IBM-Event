@@ -43,6 +43,12 @@
 		2F00C8991B8E94770080FCBE /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C88F1B8E94770080FCBE /* network.png */; };
 		2F00C89A1B8E94770080FCBE /* twitter-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C8901B8E94770080FCBE /* twitter-filled.png */; };
 		2F00C89B1B8E94770080FCBE /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C8911B8E94770080FCBE /* twitter.png */; };
+		2F4392CA1BB9A2C40058125C /* survey.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4392C81BB9A2C40058125C /* survey.png */; settings = {ASSET_TAGS = (); }; };
+		2F4392CB1BB9A2C40058125C /* surveyfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4392C91BB9A2C40058125C /* surveyfilled.png */; settings = {ASSET_TAGS = (); }; };
+		2F4392CE1BB9A3D20058125C /* linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4392CC1BB9A3D20058125C /* linkedin.png */; settings = {ASSET_TAGS = (); }; };
+		2F4392CF1BB9A3D20058125C /* linkedinfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4392CD1BB9A3D20058125C /* linkedinfilled.png */; settings = {ASSET_TAGS = (); }; };
+		2F4392D21BB9A5E20058125C /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4392D01BB9A5E20058125C /* calendar.png */; settings = {ASSET_TAGS = (); }; };
+		2F4392D31BB9A5E20058125C /* calendarfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F4392D11BB9A5E20058125C /* calendarfilled.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +105,12 @@
 		2F00C88F1B8E94770080FCBE /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = network.png; sourceTree = "<group>"; };
 		2F00C8901B8E94770080FCBE /* twitter-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-filled.png"; sourceTree = "<group>"; };
 		2F00C8911B8E94770080FCBE /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		2F4392C81BB9A2C40058125C /* survey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = survey.png; sourceTree = "<group>"; };
+		2F4392C91BB9A2C40058125C /* surveyfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surveyfilled.png; sourceTree = "<group>"; };
+		2F4392CC1BB9A3D20058125C /* linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin.png; sourceTree = "<group>"; };
+		2F4392CD1BB9A3D20058125C /* linkedinfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedinfilled.png; sourceTree = "<group>"; };
+		2F4392D01BB9A5E20058125C /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		2F4392D11BB9A5E20058125C /* calendarfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendarfilled.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,12 +205,18 @@
 				2A0AEEF61B45EB0600C4FE01 /* Foto Speaker3.png */,
 				2A0AEEF41B45EAFC00C4FE01 /* FondoApp.png */,
 				2A3457391B3E05B30037B434 /* linkedin3.jpg */,
+				2F4392D01BB9A5E20058125C /* calendar.png */,
+				2F4392D11BB9A5E20058125C /* calendarfilled.png */,
 				2A7839CE1B4AC69B00CEE17D /* Cuadrito azul.png */,
 				2A0AEEE81B4309CE00C4FE01 /* LogoIBMevents58px.jpg */,
 				2A0AEEE91B4309CE00C4FE01 /* LogoIBMevents80px.jpg */,
 				2F00C8881B8E94770080FCBE /* config-filled.png */,
+				2F4392CC1BB9A3D20058125C /* linkedin.png */,
+				2F4392CD1BB9A3D20058125C /* linkedinfilled.png */,
 				2F00C8891B8E94770080FCBE /* config.png */,
 				2F00C88A1B8E94770080FCBE /* home-filled.png */,
+				2F4392C81BB9A2C40058125C /* survey.png */,
+				2F4392C91BB9A2C40058125C /* surveyfilled.png */,
 				2F00C88B1B8E94770080FCBE /* home.png */,
 				2F00C88C1B8E94770080FCBE /* info-filled.png */,
 				2F00C88D1B8E94770080FCBE /* info.png */,
@@ -304,12 +322,17 @@
 				2A0AEEF01B45E49D00C4FE01 /* Foto Speaker1.png in Resources */,
 				2A3457441B3E084E0037B434 /* tw3.jpg in Resources */,
 				2A3457431B3E084E0037B434 /* tw2.jpg in Resources */,
+				2F4392D31BB9A5E20058125C /* calendarfilled.png in Resources */,
 				2ACA5ABF1B3531130050CC0E /* qrcode.png in Resources */,
 				2F00C89A1B8E94770080FCBE /* twitter-filled.png in Resources */,
 				2A0AEEF51B45EAFC00C4FE01 /* FondoApp.png in Resources */,
+				2F4392CA1BB9A2C40058125C /* survey.png in Resources */,
 				2F00C8961B8E94770080FCBE /* info-filled.png in Resources */,
+				2F4392D21BB9A5E20058125C /* calendar.png in Resources */,
 				2F00C8991B8E94770080FCBE /* network.png in Resources */,
 				2F00C89B1B8E94770080FCBE /* twitter.png in Resources */,
+				2F4392CE1BB9A3D20058125C /* linkedin.png in Resources */,
+				2F4392CF1BB9A3D20058125C /* linkedinfilled.png in Resources */,
 				2ACA5AC11B3531D60050CC0E /* ibmLogo.png in Resources */,
 				2F00C8981B8E94770080FCBE /* network-filled.png in Resources */,
 				2A0AEEF71B45EB0600C4FE01 /* Foto Speaker3.png in Resources */,
@@ -318,6 +341,7 @@
 				2A0AEEEB1B4309CE00C4FE01 /* LogoIBMevents58px.jpg in Resources */,
 				2A0AEEED1B4309CE00C4FE01 /* LogoIBMevents120px.jpg in Resources */,
 				2A7839CF1B4AC69B00CEE17D /* Cuadrito azul.png in Resources */,
+				2F4392CB1BB9A2C40058125C /* surveyfilled.png in Resources */,
 				2F00C8951B8E94770080FCBE /* home.png in Resources */,
 				2A34573A1B3E05B30037B434 /* linkedin1.jpg in Resources */,
 				2F00C8931B8E94770080FCBE /* config.png in Resources */,

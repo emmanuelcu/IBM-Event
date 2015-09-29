@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -74,9 +75,6 @@
                                 <state key="normal" title="Ingresar">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="Gac-uj-bCp" kind="show" id="9nr-Ya-X92"/>
-                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hh9-zD-Tku">
                                 <rect key="frame" x="80" y="214" width="215" height="30"/>
@@ -107,9 +105,6 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZsF-ST-glM">
                                 <rect key="frame" x="0.0" y="72" width="375" height="536"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foto Speaker3.png" translatesAutoresizingMaskIntoConstraints="NO" id="XLj-YU-lap">
-                                        <rect key="frame" x="0.0" y="138" width="375" height="114"/>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connections" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hl-h1-IQP">
                                         <rect key="frame" x="19" y="152" width="185" height="21"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -161,6 +156,9 @@
                                         <color key="textColor" red="0.90196078431372551" green="0.35686274509803922" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foto Speaker3.png" translatesAutoresizingMaskIntoConstraints="NO" id="XLj-YU-lap">
+                                        <rect key="frame" x="0.0" y="138" width="375" height="114"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -194,42 +192,33 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rc6-qa-stN">
                                 <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ye-09-Ho6">
-                                        <rect key="frame" x="23" y="12" width="40" height="40"/>
-                                        <state key="normal" image="home-filled.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbe-aY-6SQ">
                                         <rect key="frame" x="91" y="12" width="40" height="40"/>
-                                        <state key="normal" image="network.png">
+                                        <state key="normal" image="calendarfilled.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="ava-Lj-9eE" kind="push" id="HZP-LA-slL"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xp-ob-DFw">
                                         <rect key="frame" x="167" y="12" width="40" height="40"/>
-                                        <state key="normal" image="twitter.png">
+                                        <state key="normal" image="linkedin.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="f2S-gD-coe" kind="push" id="CsU-lk-2MF"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsW-nM-ogs">
                                         <rect key="frame" x="245" y="12" width="40" height="40"/>
-                                        <state key="normal" image="info.png">
+                                        <state key="normal" image="twitter.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="C0n-P7-eX7" kind="push" id="WEi-5n-6Tv"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6oS-Ie-hW4">
                                         <rect key="frame" x="318" y="12" width="40" height="40"/>
-                                        <state key="normal" title="Button" image="config.png">
+                                        <state key="normal" title="Button" image="survey.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ye-09-Ho6">
+                                        <rect key="frame" x="23" y="12" width="40" height="40"/>
+                                        <state key="normal" image="home.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
@@ -243,7 +232,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Programa" id="tci-Ha-9PC"/>
+                                    <navigationItem title="Agenda" id="tci-Ha-9PC"/>
                                 </items>
                             </navigationBar>
                         </subviews>
@@ -256,7 +245,74 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0XU-gj-Nnh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1322.5" y="255.5"/>
+            <point key="canvasLocation" x="1508.5" y="253.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aqt-IM-apy">
+            <objects>
+                <viewController id="Yd0-fN-d47" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D5C-Cb-s2T"/>
+                        <viewControllerLayoutGuide type="bottom" id="SjC-eE-6RW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fnx-nD-wYg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zXU-QG-AMi">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" red="0.0099108240539999993" green="0.14028171210000001" blue="0.59661063759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Inicio" id="P5r-EP-BxO"/>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p3k-BM-Pt5">
+                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZpB-d0-x37">
+                                        <rect key="frame" x="23" y="12" width="40" height="40"/>
+                                        <state key="normal" image="home-filled.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xc-Zl-cC7">
+                                        <rect key="frame" x="91" y="12" width="40" height="40"/>
+                                        <state key="normal" image="calendar.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgX-gH-foo">
+                                        <rect key="frame" x="167" y="12" width="40" height="40"/>
+                                        <state key="normal" image="linkedin.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOj-nV-S5s">
+                                        <rect key="frame" x="318" y="12" width="40" height="40"/>
+                                        <state key="normal" title="Button" image="survey.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVd-Kz-6tW">
+                                        <rect key="frame" x="245" y="12" width="40" height="40"/>
+                                        <state key="normal" image="twitter.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1450980392" green="0.30588235289999999" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="41y-8e-QhE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1031.5" y="1104.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8pI-dW-AAo">
@@ -270,15 +326,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkedin1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ob7-SQ-sLF">
-                                <rect key="frame" x="16" y="87" width="343" height="100"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkedin2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1U4-lM-jmQ">
-                                <rect key="frame" x="16" y="201" width="343" height="100"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkedin3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0vK-qX-T0C">
-                                <rect key="frame" x="16" y="315" width="343" height="100"/>
-                            </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G6I-Lf-yJi">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <color key="barTintColor" red="0.0099108240539999993" green="0.14028171210000001" blue="0.59661063759999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -286,7 +333,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Networking" id="iXn-FE-t9Q"/>
+                                    <navigationItem title="LinkedIn" id="iXn-FE-t9Q"/>
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EJp-HN-rjd">
@@ -300,31 +347,41 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNY-3V-Fa2">
                                         <rect key="frame" x="91" y="12" width="40" height="40"/>
-                                        <state key="normal" image="network-filled.png">
+                                        <state key="normal" image="calendar.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bP1-Ku-7Hm">
                                         <rect key="frame" x="167" y="12" width="40" height="40"/>
-                                        <state key="normal" image="twitter.png">
+                                        <state key="normal" image="linkedinfilled.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jH4-SI-Mbe">
                                         <rect key="frame" x="245" y="12" width="40" height="40"/>
-                                        <state key="normal" image="info.png">
+                                        <state key="normal" image="twitter.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NON-Ls-2pg">
                                         <rect key="frame" x="318" y="12" width="40" height="40"/>
-                                        <state key="normal" title="Button" image="config.png">
+                                        <state key="normal" title="Button" image="survey.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1450980392" green="0.30588235289999999" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkedin1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ob7-SQ-sLF">
+                                <rect key="frame" x="16" y="87" width="343" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkedin2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1U4-lM-jmQ">
+                                <rect key="frame" x="16" y="201" width="343" height="100"/>
+                                <color key="backgroundColor" red="0.047058823529411764" green="0.3843137254901961" blue="0.68627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkedin3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0vK-qX-T0C">
+                                <rect key="frame" x="16" y="315" width="343" height="100"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -333,7 +390,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zty-jU-BoK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="870.5" y="1144.5"/>
+            <point key="canvasLocation" x="1530.5" y="1104.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Hzn-V2-dIQ">
@@ -347,25 +404,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tw1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="g3U-Ok-eUh">
-                                <rect key="frame" x="16" y="81" width="343" height="120"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tw2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Zz-L1-UfF">
-                                <rect key="frame" x="16" y="209" width="343" height="120"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tw3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DJH-Up-IWv">
-                                <rect key="frame" x="16" y="337" width="343" height="120"/>
-                            </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhB-Qo-Org">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <color key="barTintColor" red="0.0099108240539999993" green="0.14028171210000001" blue="0.59661063759999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="Social Media" id="Iz5-hv-283"/>
-                                </items>
-                            </navigationBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WZ9-Rd-qYb">
                                 <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                                 <subviews>
@@ -377,31 +415,41 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqk-tK-a2T">
                                         <rect key="frame" x="91" y="12" width="40" height="40"/>
-                                        <state key="normal" image="network.png">
+                                        <state key="normal" image="calendar.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ni-LS-Xkw">
                                         <rect key="frame" x="167" y="12" width="40" height="40"/>
-                                        <state key="normal" image="twitter-filled.png">
+                                        <state key="normal" image="linkedin.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGB-UF-N1d">
                                         <rect key="frame" x="245" y="12" width="40" height="40"/>
-                                        <state key="normal" image="info.png">
+                                        <state key="normal" image="twitter-filled.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUz-6p-rp4">
                                         <rect key="frame" x="318" y="12" width="40" height="40"/>
-                                        <state key="normal" title="Button" image="config.png">
+                                        <state key="normal" title="Button" image="survey.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1450980392" green="0.30588235289999999" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhB-Qo-Org">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" red="0.0099108240539999993" green="0.14028171210000001" blue="0.59661063759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Twitter" id="Iz5-hv-283"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -410,7 +458,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g6D-Z0-crk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1506.5" y="1090.5"/>
+            <point key="canvasLocation" x="1996.5" y="1096.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hfO-Qb-POf">
@@ -424,13 +472,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYF-BG-PXn">
-                                <rect key="frame" x="22" y="86" width="331" height="144"/>
-                                <string key="text">Esta aplicación es propiedad de IBM y cualquier información favor de contactarse con el equipo de Marketing o envíe un correo a performancemkt@mx1.ibm.com para más información.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xe1-xO-8Xb">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <color key="barTintColor" red="0.0099108240539999993" green="0.14028171210000001" blue="0.59661063759999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -438,7 +479,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Información" id="OeA-dw-FpR"/>
+                                    <navigationItem title="Encuestas" id="OeA-dw-FpR"/>
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RYb-VG-UNC">
@@ -452,31 +493,49 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTl-yj-kRc">
                                         <rect key="frame" x="91" y="12" width="40" height="40"/>
-                                        <state key="normal" image="network.png">
+                                        <state key="normal" image="calendar.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVd-dA-NWF">
                                         <rect key="frame" x="167" y="12" width="40" height="40"/>
-                                        <state key="normal" image="twitter.png">
+                                        <state key="normal" image="linkedin.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJJ-xC-3X4">
                                         <rect key="frame" x="245" y="12" width="40" height="40"/>
-                                        <state key="normal" image="info-filled.png">
+                                        <state key="normal" image="twitter.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0f-HJ-nF0">
                                         <rect key="frame" x="318" y="12" width="40" height="40"/>
-                                        <state key="normal" title="Button" image="config.png">
+                                        <state key="normal" title="Button" image="surveyfilled.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1450980392" green="0.30588235289999999" blue="0.66274509800000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foto Speaker2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OP9-hr-yaf">
+                                <rect key="frame" x="-1" y="212" width="375" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Softlayer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hh-hC-45I">
+                                <rect key="frame" x="16" y="258" width="185" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.90196078430000004" green="0.35686274509999999" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foto Speaker3.png" translatesAutoresizingMaskIntoConstraints="NO" id="UMs-Ig-iZk">
+                                <rect key="frame" x="0.0" y="90" width="375" height="114"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connections" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpI-j8-7my">
+                                <rect key="frame" x="16" y="136" width="185" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.23921568630000001" green="0.55294117649999996" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -485,7 +544,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5i4-3s-ZWX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1972.5" y="450.5"/>
+            <point key="canvasLocation" x="1976.5" y="253.5"/>
         </scene>
     </scenes>
     <resources>
@@ -493,20 +552,18 @@
         <image name="Foto Speaker1.png" width="343" height="100"/>
         <image name="Foto Speaker2.png" width="343" height="100"/>
         <image name="Foto Speaker3.png" width="343" height="100"/>
-        <image name="config.png" width="120" height="120"/>
+        <image name="calendar.png" width="120" height="120"/>
+        <image name="calendarfilled.png" width="120" height="120"/>
         <image name="home-filled.png" width="120" height="120"/>
         <image name="home.png" width="120" height="120"/>
         <image name="ibmLogo.png" width="355" height="142"/>
-        <image name="info-filled.png" width="120" height="120"/>
-        <image name="info.png" width="120" height="120"/>
+        <image name="linkedin.png" width="120" height="120"/>
         <image name="linkedin1.jpg" width="343" height="100"/>
         <image name="linkedin2.jpg" width="343" height="100"/>
         <image name="linkedin3.jpg" width="343" height="100"/>
-        <image name="network-filled.png" width="120" height="120"/>
-        <image name="network.png" width="120" height="120"/>
-        <image name="tw1.jpg" width="343" height="100"/>
-        <image name="tw2.jpg" width="343" height="100"/>
-        <image name="tw3.jpg" width="343" height="100"/>
+        <image name="linkedinfilled.png" width="120" height="120"/>
+        <image name="survey.png" width="120" height="120"/>
+        <image name="surveyfilled.png" width="120" height="120"/>
         <image name="twitter-filled.png" width="120" height="120"/>
         <image name="twitter.png" width="120" height="120"/>
     </resources>
